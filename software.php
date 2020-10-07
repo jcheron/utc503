@@ -15,4 +15,10 @@ arrayDump(getEmployeesByService($employees,'compta'),'Liste des employés de la 
 
 
 
+//Test Where
+arrayDump(where($employees,"service","dsi"),'Liste DSI');
+
+
+
+
 
