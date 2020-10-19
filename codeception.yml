@@ -6,6 +6,7 @@ coverage:
     remote: false
     include:
         - ./*.php
+
 settings:
     shuffle: true
     lint: true
