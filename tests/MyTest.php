@@ -1,5 +1,5 @@
 <?php
-include_once "include/datas.inc.php";
+include_once "src/include/datas.inc.php";
 
 class MyTest extends \Codeception\Test\Unit
 {

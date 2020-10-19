@@ -18,11 +18,11 @@ build:
         override:
           - command: (./vendor/bin/codecept build && ./vendor/bin/codecept run --coverage-xml -v)
             coverage:
-              file: src/tests/_output/coverage.xml
+              file: tests/_output/coverage.xml
               format: clover
  
 filter:
-    paths: ["."]
+    paths: ["src/"]
     excluded_paths:
         - tests/*
 checks:
